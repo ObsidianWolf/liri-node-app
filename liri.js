@@ -68,8 +68,10 @@ function fireConcert() {
 }
 
 //liri getting the spotify data
-function fireSpotify() {
-    var query = commandTwo || 'the sign ace of base'
+function fireSpotify(query) {
+    if (!query)
+    query = "the sign ace of base";
+    // var query = commandTwo || 'the sign ace of base'
 
     spotify.search({ type: 'track', query: query })
 
@@ -133,7 +135,7 @@ function doWhatItSays() {
 
         console.log(dataArr, 'dataArray');
 
-        myIfStatements(dataArr[0], dataArr[1]);
+        myIfStatements(dataArr[0], dataArr[1].trim());
         console.log(dataArr[1]);
 
         if (err) {
