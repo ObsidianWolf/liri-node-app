@@ -39,6 +39,7 @@ function myIfStatements (command, commandTwo) {
         break;
 
     default:
+    console.log("Sorry, I don't understand that commmand...");
         break;
 }   
 
