@@ -8,6 +8,7 @@ LIRI is a _Language_ Interpretation and Recognition Interface.
 <li>-& a preview link of the song from spotify.<li>
 <ul>
 <p> 
+<br>
 <p>LIRI also can give you information on your favorite movies such as;<p>
 <ul>
 <li>-The released date.<li>
@@ -18,9 +19,10 @@ LIRI is a _Language_ Interpretation and Recognition Interface.
 <li>-The plot of the movie.<li>
 <li>-Also the actors in the movie.<li>
 <ul>
+<p>
+<br>
 <p>LIRI can keep you up to date without having to go to a bunch of diffrent sites for your entertainment information.<p>
- 
-
+ <br>
 <p>Here is a video sample on how you can use LIRI's functions.<p>
 
 <https://drive.google.com/file/d/1Ts53lAJwcY7Qetm-BKAMFpzeHIy8EuUT/view>
